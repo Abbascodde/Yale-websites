@@ -3,11 +3,215 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/mobile_screen.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="/style.css"
+  <title>Yale Schools</title>
 </head>
 <body>
-  <h1>hello world</h1>
-  
+<div class="topnav" id="myTopnav">
+  <img src="./images/Standard Collection 6.png" width="15%" height="50px" alt="">
+  <a href="#home">  Yale school of Art</a>
+  <a href="#news">Home</a>
+  <a href="#news">About</a>
+  <a href="#contact">Gallery</a>
+  <a href="#about">Publications</a>
+  <a href="#about">News</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- main  -->
+<main>
+  <div>
+    <h1 class="unlock">unlock your <br> creative potential</h1>
+    <p class="yale-para">The Yale school of art, one of the <br> original graduate art programs in the <br>country, cultivates artists who are <br>inventive, rigorous, and engaged.</p>
+  </div>
+  <div class="main-buttons">
+    <button type="button" class="button-1">ENROL NOW</button>
+    <button type="button" class="button-2">LOG IN</button>
+  </div>
+</main>  
+<!-- main end -->
+
+<!-- over-view  -->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="/images/image wireframe (2).png" style="width:100%" alt="image">
+    <div class="text">
+      <h1>School News</h1>
+      <p>October 4 2024</p>
+      <h3><a id="blog-link" href="#">Read the latest news <br> about our development </a></h3>
+    </div>
+
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="/images/Rectangle 11.png" style="width:100%"  alt="image">
+    <div class="text">
+      <h1>Calender and Newsletter</h1>
+      <p>October 10 2024</p>
+      <h3><a id="blog-link" href="#">Read  about our <br>operations  </a></h3>
+    </div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="/images/Rectangle 12 (1).png" style="width:100%"  alt="image">
+    <div class="text">
+      <h1>Students Voice</h1>
+      <p>july 20 2024</p>
+      <h3><a  id="blog-link" href="#">what the student has to <br> say and what they think.... </a></h3>
+    </div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+
+<!-- why yale  -->
+<section class="why-yale">
+  <div class="descriptions">
+    <h1>WHY THE YALE SCHOOL OF ART</h1>
+    <div class="red-line"></div>
+    <p class="why-paragraph">The Yale School of Art is a graduate <br> school that confers MFAs in a variety of <br> topics. Such qualifications are a great <br>way to enter into a large market and <br>command a higher salary. This school is <br>great for people who want to dive into <br>the field of graphic design. They're <br>going to teach you about the diverse <br>group of skills required to be a successful designer.<br>
+    A successful designer must make sure <br> that the design is on brand, be able to <br> create a logo, understand layout and <br>typography, and be able to do a wide <br>range of skills from digital to traditional. <br> That's why it's nice to have a wide base <br>of knowledge.</p>
+  </div>
+  <div>
+    <img src="./images/rahul-jain-JOYtT8_Y7c8-unsplash 1.png" width="100%" height="100%" alt="" class="desr-img">
+  </div>
+</section>
+<!-- why yale end -->
+
+<!-- Admission -->
+<section class="admission">
+
+    <!-- <img src="./images/Rectangle 22.png" alt="" hidden> -->
+
+  <div style="background: #2C3034;">
+    <h1>Apply For Admission</h1>
+    <div class="red-line-2">
+    </div>
+    <h3 class="aplly-24">2024 Applications are now open</h3>
+    <p class="why-paragraph">University admission and college <br>admission is now open for individuals who wants learn pursue art courses on campus.</p>
+    <br>
+    <br>
+  </div>
+  <button type="button" class="button-1">Apply Now</button>
+
+  <h1 class="blog">OUR BLOG POST</h1>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="/images/image wireframe (2).png" style="width:100%" alt="image">
+      <div class="text">
+        <h1>School News</h1>
+        <p>October 4 2024</p>
+        <h3><a id="blog-link" href="#">Read the latest news <br> about our development </a></h3>
+      </div>
+
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="/images/Rectangle 11.png" style="width:100%"  alt="image">
+      <div class="text">
+        <h1>Calender and Newsletter</h1>
+        <p>October 10 2024</p>
+        <h3><a id="blog-link" href="#">Read  about our <br>operations  </a></h3>
+      </div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="/images/Rectangle 12 (1).png" style="width:100%"  alt="image">
+      <div class="text">
+        <h1>Students Voice</h1>
+        <p>july 20 2024</p>
+        <h3><a  id="blog-link" href="#">what the student has to <br> say and what they think.... </a></h3>
+      </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>  
+</section>
+<!-- Admission end-->
+
+<!-- yale magazine  -->
+<section class="yale-magazine">
+  <div class="magazine">
+    <h1>The Yale School Of <br> Art Magazine</h1>
+    <p>In our latest issue:Making Yale School Of Art more accessible, an ambitiuos tri-campus plan,how to master graphic design and art,photographic , charting the history of best Art college in th world</p>
+    <button type="button">Explore the issue</button>
+  </div>
+  <div class="features">
+    <h1>FEATURE </h1>
+    <h2>CAMPUS</h2>
+    <h4>Who is included</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error excepturi ad et libero, <br> dicta aspernatur dolore odio ea quaerat beatae.</p>
+  </div>
+  <div>
+    <img src="/images/image wireframe (1).png" width="100%" alt="">
+  </div>
+</section>
+<!-- yale magazine end -->
+
+<!--footer  -->
+<footer>
+  <div class="alumni">
+    <p>Future Students</p>
+    <br>
+    <p>Current Students</p>
+    <br>
+    <p>Alumni</p>
+    <br>
+    <p>Donors</p>
+    <br>
+    <p>Visitors</p>
+  </div>
+  <div class="art"><img src="/images/Standard Collection 6.png" alt="">
+    <h3>Yale school of Art</h3>
+  </div>
+  <div class="alumni">
+    <p>News & Media</p>
+    <br>
+    <p>About Us</p>
+    <br>
+    <p>Academics</p>
+    <br>
+    <p>Programmes</p>
+    <br>
+    <p>Public Events</p>
+    <br>
+    <p>Publications</p>
+  </div>
+  <br>
+  <div class="alumni-2">
+    <div class="social-media">
+      Social Media
+    </div>
+    <p class="proicons--x-twitter"></p>
+    <br>
+    <p  class="iconoir--facebook"></p>
+    <br>
+    <p class="mynaui--brand-linkedin"></p>
+    <br>
+    <p class="iconoir--instagram"></p>
+    <br>
+  </div>
+  <p class="year-show">THE YALE SCHOOL OF ART - since 1986</p>
+</footer>
+<!--footer  end-->
+<script src="/script.js"></script>
 </body>
 </html>
