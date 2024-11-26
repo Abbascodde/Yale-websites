@@ -1,0 +1,86 @@
+@media (max-width: 480px) {
+/* about hero */
+  .hero-page {
+    margin-top: 0.5rem;
+  }
+  
+  #hero {
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    margin-top: 4.5rem;
+  }
+  
+  #hero{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 22px;
+  }
+  /* about hero end*/
+
+  /* about us  */
+  .about-us {
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  .about-info {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .about-info h3 {
+    font-weight: 800;
+  }
+
+  .info-para{
+    margin-top: 1rem;
+    background: #43799f;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  /* about us end */
+
+  /* more info */
+  .more-info h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+  }
+
+  #info-img {
+    margin-top: 1rem;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .more-info p {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(237, 235, 235);
+    padding: 10px;
+    line-height: 1.5;
+  }
+
+  .more-info-2 h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+  }
+  .more-info-2 p {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(241, 235, 235);
+    padding: 10px;
+    line-height: 1.5;
+  }
+  /* more info end */
+  
+}
